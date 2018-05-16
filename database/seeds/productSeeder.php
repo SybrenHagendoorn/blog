@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Illuminate\support\Facades\DB;
 
 class productSeeder extends Seeder
 {
@@ -18,7 +19,9 @@ class productSeeder extends Seeder
         ['product_name' => 'Destiny 2', 'product_description' => 'Te verslavend', 'product_price' => '10.00'],
         ['product_name' => 'Sybren', 'product_description' => 'Één of andere slaaf', 'product_price' => '5.00'],
         ['product_name' => 'Slaaf', 'product_description' => 'Sybren', 'product_price' => '50000.00'],
-        ['product_name' => 'Fortnite', 'product_description' => 'Te verslavend voor Sybren', 'product_price' => '30.00']
+        ['product_name' => 'Fortnite', 'product_description' => 'Te verslavend voor Sybren', 'product_price' => '30.00'],
+        ['product_name' => 'harry potter', 'product_description' => 'tovernaar', 'product_price' => '9.99'],
+        ['product_name' => 'harry potter2', 'product_description' => 'tovernaar met update voor jou', 'product_price' => '19.99']
       ]);
     }
 }

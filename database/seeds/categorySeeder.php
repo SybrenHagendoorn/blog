@@ -16,7 +16,8 @@ class categorySeeder extends Seeder
       ['category_name' => 'Fruit'],
       ['category_name' => 'Groenten'],
       ['category_name' => 'Games'],
-      ['category_name' => 'Persona']
+      ['category_name' => 'Persona'],
+      ['category_name' => 'Boeken']
     ]);
     }
 }

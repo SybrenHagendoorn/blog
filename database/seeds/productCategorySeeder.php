@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class productCategorySeeder extends Seeder
+class productcategoryseeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -19,7 +19,9 @@ class productCategorySeeder extends Seeder
       ['product_id' => 4, 'category_id' => 3],
       ['product_id' => 5, 'category_id' => 4],
       ['product_id' => 6, 'category_id' => 4],
-      ['product_id' => 7, 'category_id' => 3]
+      ['product_id' => 7, 'category_id' => 3],
+      ['product_id' => 8, 'category_id' => 5],
+      ['product_id' => 9, 'category_id' => 5]
     ]);
     }
 }
