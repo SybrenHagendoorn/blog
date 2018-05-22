@@ -13,11 +13,11 @@ class categorySeeder extends Seeder
     public function run()
     {
       DB::table('categories')->insert([
-      ['category_name' => 'Fruit'],
-      ['category_name' => 'Groenten'],
-      ['category_name' => 'Games'],
-      ['category_name' => 'Persona'],
-      ['category_name' => 'Boeken']
+      ['name' => 'Fruit'],
+      ['name' => 'Groenten'],
+      ['name' => 'Games'],
+      ['name' => 'Persona'],
+      ['name' => 'Boeken']
     ]);
     }
 }

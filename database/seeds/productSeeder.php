@@ -13,15 +13,15 @@ class productSeeder extends Seeder
     public function run()
     {
       DB::table('products')->insert([
-        ['product_name' => 'Banaan', 'product_description' => 'Een krom en geel voorwerp', 'product_price' => '500.00'],
-        ['product_name' => 'Sla', 'product_description' => 'Een groene bal voor slakken', 'product_price' => '1.49'],
-        ['product_name' => 'Tomaat', 'product_description' => 'Jouw kop', 'product_price' => '0.50'],
-        ['product_name' => 'Destiny 2', 'product_description' => 'Te verslavend', 'product_price' => '10.00'],
-        ['product_name' => 'Sybren', 'product_description' => 'Één of andere slaaf', 'product_price' => '5.00'],
-        ['product_name' => 'Slaaf', 'product_description' => 'Sybren', 'product_price' => '50000.00'],
-        ['product_name' => 'Fortnite', 'product_description' => 'Te verslavend voor Sybren', 'product_price' => '30.00'],
-        ['product_name' => 'harry potter', 'product_description' => 'tovernaar', 'product_price' => '9.99'],
-        ['product_name' => 'harry potter2', 'product_description' => 'tovernaar met update voor jou', 'product_price' => '19.99']
+        ['name' => 'Banaan', 'description' => 'Een krom en geel voorwerp', 'price' => '500.00'],
+        ['name' => 'Sla', 'description' => 'Een groene bal voor slakken', 'price' => '1.49'],
+        ['name' => 'Tomaat', 'description' => 'Jouw kop', 'price' => '0.50'],
+        ['name' => 'Destiny 2', 'description' => 'Te verslavend', 'price' => '10.00'],
+        ['name' => 'Sybren', 'description' => 'Één of andere slaaf', 'price' => '5.00'],
+        ['name' => 'Slaaf', 'description' => 'Sybren', 'price' => '50000.00'],
+        ['name' => 'Fortnite', 'description' => 'Te verslavend voor Sybren', 'price' => '30.00'],
+        ['name' => 'harry potter', 'description' => 'tovernaar', 'price' => '9.99'],
+        ['name' => 'harry potter2', 'description' => 'tovernaar met update voor jou', 'price' => '19.99']
       ]);
     }
 }
